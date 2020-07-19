@@ -1,3 +1,34 @@
 package utility;
 
-// Type your code
+public class StringAdvanceMethod{
+	
+	String input1,input2;
+	
+	
+public String getInput1() {
+		return input1;
+	}
+	public void setInput1(String input1) {
+		this.input1 = input1;
+	}
+	public String getInput2() {
+		return input2;
+	}
+	public void setInput2(String input2) {
+		this.input2 = input2;
+	}
+public	String concat(String a, String b) {
+		String c=a+b;
+		return c;
+	}
+public	String split(String a, String b) {
+		
+		 a.split(b);
+		return a;
+	}
+	
+public String indexOf(String a,String b) {
+		String c=Integer.toString(a.indexOf(b));
+		return c;
+	}
+}

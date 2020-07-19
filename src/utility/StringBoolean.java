@@ -22,7 +22,7 @@ public class StringBoolean {
 
 	public boolean contains(String input1, String input2) {
 		boolean output = input1.contains(input2);
-		System.out.println(output);
+		
 		return output;
 	}
 
@@ -45,5 +45,7 @@ public class StringBoolean {
 		boolean output = input1.equalsIgnoreCase(input2);
 		return output;
 	}
+	
+	
 
 }
